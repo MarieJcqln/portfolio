@@ -1,0 +1,89 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    color: #ffdbd1;
+}
+
+header {
+    background-color: #57160b;
+    color: #ffdbd1;
+    padding: 20px;
+    text-align: center;
+}
+
+.marie {
+    font-family:Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffdbd1;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+    background-color: #b22b14;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffdbd1;
+}
+
+/* Spécifique à chaque catégorie */
+#ux { background-color: #b22b14; }
+#audiovisuel { background-color: #b22b14 ; } 
+#motion { background-color: #b22b14; } 
+#illustration { background-color: #b22b14; } 
+#modelisation { background-color: #b22b14; } 
+
+footer {
+    background-color: #57160b;
+    color: #ffdbd1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.video-container {
+    position: relative;
+    width: 80%;  /* Ajuste la largeur (80% de la page) */
+    max-width: 900px;  /* Largeur maximale */
+    margin: 20px auto;
+    overflow: hidden;
+    padding-top: 56.25%; /* Ratio 16:9 */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.separator {
+    border: none;
+    height: 2px; 
+    background-color: #57160b; 
+    width: 95%; 
+    margin: 50px auto; 
+}
